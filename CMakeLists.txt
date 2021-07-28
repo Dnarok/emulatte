@@ -18,7 +18,8 @@ ExternalProject_Add(spdlog
 )
 
 set(SOURCE_FILES source/main.cpp)
-set(HEADER_FILES include/emulatte/fundamentals.hpp)
+set(HEADER_FILES include/emulatte/fundamentals.hpp
+				 include/emulatte/cpu.hpp)
 
 add_executable(emulatte ${SOURCE_FILES} ${HEADER_FILES})
 add_dependencies(emulatte spdlog)
