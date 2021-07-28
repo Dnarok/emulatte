@@ -4,5 +4,5 @@
 
 int main()
 {
-	spdlog::info("Hello, world!");
+    spdlog::info("Hello, world!");
 };
